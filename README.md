@@ -116,16 +116,26 @@ const prabal = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=prabalmittal04&show_icons=true&theme=vue&hide_border=false&border_radius=12&title_color=4158D0&icon_color=7B61FF" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prabalmittal04&theme=vue&hide_border=false&border_radius=12&ring=4158D0&fire=7B61FF" height="165"/>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabalmittal04&layout=compact&theme=vue&hide_border=false&border_radius=12&title_color=4158D0&langs_count=8" height="165"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prabalmittal04&theme=github-compact&hide_border=false&border_radius=12&color=4158D0&line=7B61FF&point=00C2FF&area=true&custom_title=Contribution%20Graph"/>
+<!-- Row 1: Stats + Streak side by side -->
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=prabalmittal04&show_icons=true&theme=dark&hide_border=false&border_radius=10&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true" height="185" alt="GitHub Stats"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://streak-stats.demolab.com/?user=prabalmittal04&theme=dark&hide_border=false&border_radius=10&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&sideNums=FFFFFF" height="185" alt="GitHub Streak"/>
+    </td>
+  </tr>
+  <!-- Row 2: Languages + Contribution chart side by side -->
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabalmittal04&layout=compact&theme=dark&hide_border=false&border_radius=10&title_color=58A6FF&langs_count=6&card_width=320" height="185" alt="Top Languages"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://ghchart.rshah.org/58A6FF/prabalmittal04" alt="Contribution Chart"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
