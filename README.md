@@ -254,27 +254,17 @@ const prabal = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
 
-<!-- ═══════════════════ SNAKE ATTACK ═══════════════════ -->
+<!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=FFD60A&height=55&section=header&text=🐍%20SNAKE%20ATTACK%20—%20HEATMAP&fontSize=22&fontColor=000000&animation=twinkling" width="100%"/>
-
-<br/>
+## 🐍 Contribution Snake
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.gif" alt="Snake eating contributions — comic edition" width="100%"/>
-
-<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake heatmap" width="100%"/>
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
 </picture>
-
-<br/>
-
-<sub>🐍 <b>SNAAAAKE!</b> · Devouring contributions daily · Auto-updated via GitHub Actions</sub>
 
 </div>
 

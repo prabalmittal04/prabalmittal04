@@ -1,5 +1,5 @@
 # Generates the contribution snake animation on your GitHub heatmap.
-# Runs daily + on manual trigger. Pushes SVG/GIF to the `output` branch.
+# Runs daily + on manual trigger. Pushes SVG to the `output` branch.
 
 name: Generate Contribution Snake
 
@@ -26,8 +26,7 @@ jobs:
           github_user_name: prabalmittal04
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=E63946
-            dist/github-contribution-grid-snake.gif?color_snake=E63946
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
