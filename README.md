@@ -136,15 +136,16 @@ const prabal = {
 
 ---
 
-### 🐍 Contribution Activity · 2026
+### 🐍 Contribution Snake
 
 <div align="center">
 
-<sub>Live contribution heatmap · updates automatically</sub>
+<!-- GIF works on GitHub; animated SVG shows a broken green bar in README -->
+<img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.gif" width="720" alt="Contribution snake animation"/>
 
-<br/><br/>
+<br/>
 
-<img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake-dark.svg" width="720" alt="2026 GitHub contribution snake"/>
+<sub>Rolling 365-day graph · auto-updates daily</sub>
 
 </div>
 

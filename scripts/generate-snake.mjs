@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync, copyFileSync } from "node:fs";
+import { mkdirSync, writeFileSync } from "node:fs";
 
 const USER = process.env.GITHUB_USER || "prabalmittal04";
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -7,22 +7,14 @@ if (!TOKEN) {
   throw new Error("GITHUB_TOKEN is required");
 }
 
-const RANGES = [
-  {
-    label: "2025",
-    from: "2025-01-01T00:00:00Z",
-    to: "2025-12-31T23:59:59Z",
-    light: "dist/snake-2025.svg",
-    dark: "dist/snake-2025-dark.svg",
-  },
-  {
-    label: "2026",
-    from: "2026-01-01T00:00:00Z",
-    to: new Date().toISOString(),
-    light: "dist/snake-2026.svg",
-    dark: "dist/snake-2026-dark.svg",
-  },
-];
+// Match GitHub profile: rolling last 365 days (excludes 2024 for this account).
+const now = new Date();
+const fromDate = new Date(now);
+fromDate.setUTCDate(fromDate.getUTCDate() - 364);
+fromDate.setUTCHours(0, 0, 0, 0);
+
+const FROM = fromDate.toISOString();
+const TO = now.toISOString();
 
 const originalFetch = globalThis.fetch;
 
@@ -74,7 +66,7 @@ const darkDraw = {
   sizeDotBorderRadius: 2,
   sizeCell: 16,
   sizeDot: 12,
-  colorBackground: "#0c1116",
+  colorBackground: "#0d1117",
   colorDotBorder: "#1b1f230a",
   colorEmpty: "#161b22",
   colorDots: ["#161b22", "#01311f", "#034525", "#0f6d31", "#00c647"],
@@ -87,26 +79,36 @@ mkdirSync("dist", { recursive: true });
 
 const { generateSnakeAnimation } = await import("generate-snake-animation");
 
-for (const range of RANGES) {
-  console.log(`Generating snake for ${range.label}`);
-  patchFetch(range.from, range.to);
+console.log(`Generating snake from ${FROM.slice(0, 10)} to ${TO.slice(0, 10)}`);
+patchFetch(FROM, TO);
 
-  const results = await generateSnakeAnimation(
-    { platform: "github", username: USER, githubToken: TOKEN },
-    [
-      { filename: range.light, format: "svg", drawOptions: lightDraw, animationOptions: anim },
-      { filename: range.dark, format: "svg", drawOptions: darkDraw, animationOptions: anim },
-    ],
-  );
+const results = await generateSnakeAnimation(
+  { platform: "github", username: USER, githubToken: TOKEN },
+  [
+    {
+      filename: "dist/github-contribution-grid-snake.svg",
+      format: "svg",
+      drawOptions: lightDraw,
+      animationOptions: anim,
+    },
+    {
+      filename: "dist/github-contribution-grid-snake-dark.svg",
+      format: "svg",
+      drawOptions: darkDraw,
+      animationOptions: anim,
+    },
+    {
+      filename: "dist/github-contribution-grid-snake.gif",
+      format: "gif",
+      drawOptions: darkDraw,
+      animationOptions: anim,
+    },
+  ],
+);
 
-  writeFileSync(range.light, results[0]);
-  writeFileSync(range.dark, results[1]);
-  console.log(`Saved ${range.light}`);
-}
-
-// Legacy filenames → latest year (2026)
-copyFileSync("dist/snake-2026.svg", "dist/github-contribution-grid-snake.svg");
-copyFileSync("dist/snake-2026-dark.svg", "dist/github-contribution-grid-snake-dark.svg");
+writeFileSync("dist/github-contribution-grid-snake.svg", results[0]);
+writeFileSync("dist/github-contribution-grid-snake-dark.svg", results[1]);
+writeFileSync("dist/github-contribution-grid-snake.gif", results[2]);
 
 globalThis.fetch = originalFetch;
-console.log("Done — 2025 & 2026 snakes generated (no 2024 data).");
+console.log("Done — rolling 365-day snake GIF + SVG generated.");
