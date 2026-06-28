@@ -108,7 +108,7 @@ const results = await generateSnakeAnimation(
 
 writeFileSync("dist/github-contribution-grid-snake.svg", results[0]);
 writeFileSync("dist/github-contribution-grid-snake-dark.svg", results[1]);
-writeFileSync("dist/github-contribution-grid-snake.gif", results[2]);
+writeFileSync("dist/github-contribution-grid-snake.gif", Buffer.from(results[2]));
 
 globalThis.fetch = originalFetch;
 console.log("Done — rolling 365-day snake GIF + SVG generated.");

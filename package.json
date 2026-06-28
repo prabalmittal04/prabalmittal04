@@ -3,6 +3,9 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "generate-snake-animation": "3.5.0"
+    "canvas": "3.2.0",
+    "generate-snake-animation": "3.5.0",
+    "gif-encoder-2": "1.0.5",
+    "gifsicle": "5.3.0"
   }
 }
