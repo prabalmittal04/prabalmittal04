@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header banner — waving type renders reliably on GitHub -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a12,45:1a0a2e,75:2d1b69,100:0c1445&height=190&section=header&text=Prabal%20Mittal&fontSize=42&fontColor=fff&fontAlignY=42&desc=AI%20Engineer%20%7C%20Full-Stack%20Builder&descSize=16&descAlignY=62&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,40:0a0612,70:0c0a18,100:050508&height=190&section=header&text=Prabal%20Mittal&fontSize=42&fontColor=fff&fontAlignY=42&desc=AI%20Engineer%20%7C%20Full-Stack%20Builder&descSize=16&descAlignY=62&animation=twinkling"/>
 
 <!-- Profile photo — direct GitHub CDN -->
 <img src="https://avatars.githubusercontent.com/u/191008386?s=200&v=4" width="120" alt="Prabal Mittal"/>
