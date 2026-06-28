@@ -1,48 +1,48 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--  ✨  PRABAL MITTAL — GITHUB PROFILE README  ✨                  -->
+<!--  💥 COMIC EDITION — PRABAL MITTAL — GITHUB PROFILE README 💥   -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:A855F7&height=220&section=header&text=Prabal%20Mittal&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%20Engineer%20%7C%20Builder%20%7C%20Full-Stack%20Developer&descSize=18&descAlignY=58&descAlign=50"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E63946,40:FFD60A,80:0077B6,100:000000&height=240&section=header&text=PRABAL%20MITTAL&fontSize=56&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=ISSUE%20%231%20%7C%20AI%20Engineer%20%26%20Builder%20%7C%20Code%20Hero&descSize=17&descAlignY=58&descAlign=50"/>
 
 <div align="center">
 
-<!-- Profile Avatar -->
-<img src="https://github.com/prabalmittal04.png" width="140" alt="Prabal Mittal"/>
+<img src="https://img.shields.io/badge/💥_COMIC_EDITION-2026-E63946?style=for-the-badge&labelColor=000000" alt="Comic Edition"/>
+<img src="https://img.shields.io/badge/🦸_STATUS-HERIC_MODE-FFD60A?style=for-the-badge&labelColor=000000" alt="Hero Mode"/>
 
 <br/><br/>
 
-<!-- Animated Typing -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&multiline=true&width=650&height=80&lines=Hi+%F0%9F%91%8B%2C+Welcome+to+my+GitHub!;Building+Intelligent+Apps+%F0%9F%A4%96;Crafting+Scalable+Software+%F0%9F%9A%80;Open+Source+%26+Collaboration+%F0%9F%92%9C" alt="Typing animation"/>
+<img src="https://github.com/prabalmittal04.png" width="150" alt="Prabal Mittal — Comic Hero"/>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=2500&pause=800&color=E63946&center=true&vCenter=true&multiline=true&width=680&height=90&lines=BOOM!+Welcome+to+my+GitHub+Universe!;POW!+AI+Engineer+%26+Full-Stack+Builder;WHAM!+Turning+Ideas+Into+Epic+Apps;ZAP!+Open+For+Collabs+%26+Adventures" alt="Comic typing animation"/>
 
 <br/>
 
-<!-- Social Badges Row -->
 <p>
   <a href="https://prabalmittal.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-prabalmittal.vercel.app-6366F1?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a2e" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/🌐_HQ-prabalmittal.vercel.app-E63946?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/prabal-mittal-722727313" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/📡_LinkedIn-CONNECT-0077B6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/prabalmittal04" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-prabalmittal04-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/🐙_GitHub-prabalmittal04-FFD60A?style=for-the-badge&logo=github&logoColor=black&labelColor=000000" alt="GitHub"/>
   </a>
 </p>
 
-<!-- Live Stats Badges -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=prabalmittal04&label=👁%20Profile%20Views&color=6366F1&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/prabalmittal04?style=for-the-badge&logo=github&label=Followers&color=6366F1&labelColor=1a1a2e" alt="Followers"/>
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Hire-22C55E?style=for-the-badge&labelColor=1a1a2e" alt="Status"/>
+  <img src="https://komarev.com/ghpvc/?username=prabalmittal04&label=👁%20READERS&color=E63946&style=for-the-badge" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/prabalmittal04?style=for-the-badge&logo=github&label=Sidekicks&color=FFD60A&labelColor=000000" alt="Followers"/>
 </p>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" color="E63946" width="100%"/>
 
-<!-- ═══════════════════ ABOUT ME ═══════════════════ -->
+<!-- ═══════════════════ ORIGIN STORY ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=6366F1&height=50&section=header&text=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20About%20Me&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=E63946&height=55&section=header&text=💥%20ORIGIN%20STORY&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%"/>
 
 <br/>
 
@@ -51,28 +51,29 @@
     <td width="50%" valign="top">
 
 ```javascript
+// 🦸 HERO FILE — CLASSIFIED
 const prabal = {
-  name: "Prabal Mittal",
+  alias: "Prabal Mittal",
   role: "AI Engineer & Builder",
-  location: "🇮🇳 India",
-  code: ["Java", "TypeScript", "Python", "C"],
-  focus: ["AI/ML", "Full-Stack", "System Design"],
-  learning: ["LLMs", "Cloud", "DevOps"],
-  funFact: "Ideas → Products → Impact 🚀"
+  base: "🇮🇳 India",
+  powers: ["AI/ML", "Full-Stack", "System Design"],
+  weapon: ["Java", "TypeScript", "Python", "React"],
+  motto: "Code fast. Ship faster. Save the day. 🚀"
 };
 ```
 
     </td>
     <td width="50%" valign="top">
 
-| | |
+> 💬 **"Every bug is just a villain waiting to be defeated!"**
+
+| 🎯 | Mission Log |
 |:---|:---|
-| 🔭 **Working on** | AI-powered apps & full-stack projects |
-| 🌱 **Learning** | Machine Learning & Cloud Architecture |
-| 💡 **Passion** | Clean code that solves real problems |
-| 🤝 **Open to** | Collaborations & open-source |
-| 📫 **Contact** | [LinkedIn](https://www.linkedin.com/in/prabal-mittal-722727313) · [Portfolio](https://prabalmittal.vercel.app/) |
-| ⚡ **Philosophy** | Ship fast, iterate faster |
+| 🔭 | Building **AI-powered apps** & intelligent systems |
+| 🌱 | Leveling up in **LLMs**, **Cloud** & **DevOps** |
+| 💡 | Passion: clean code that **helps real people** |
+| 🤝 | Recruiting allies for **open-source adventures** |
+| 📫 | Signal me on [LinkedIn](https://www.linkedin.com/in/prabal-mittal-722727313) · [Portfolio](https://prabalmittal.vercel.app/) |
 
     </td>
   </tr>
@@ -80,84 +81,191 @@ const prabal = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
 
-<!-- ═══════════════════ TECH STACK ═══════════════════ -->
+<!-- ═══════════════════ SUPER POWERS ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=8B5CF6&height=50&section=header&text=%F0%9F%9B%A0%EF%B8%8F%20Tech%20Stack&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=FFD60A&height=55&section=header&text=⚡%20SUPER%20POWERS&fontSize=24&fontColor=000000&animation=twinkling" width="100%"/>
 
 <br/>
 
 <div align="center">
 
-<!-- Animated Skill Icons Grid -->
-<img src="https://skillicons.dev/icons?i=java,ts,js,py,c,react,nextjs,html,css,tailwind,nodejs,spring,mongodb,mysql,postgres,git,github,docker,linux,vscode,vercel,figma,openai,tensorflow,pytorch,bash,postman&theme=dark&perline=12" alt="Tech Stack Icons"/>
+<img src="https://skillicons.dev/icons?i=java,ts,js,py,react,nextjs,nodejs,spring,mongodb,postgres,firebase,git,docker,linux,vscode,vercel,openai,tensorflow,android,figma&theme=dark&perline=10" alt="Super Powers Icons"/>
 
 <br/><br/>
 
-<!-- Category Badges -->
-<img src="https://img.shields.io/badge/💻_Languages-Java_|_TypeScript_|_Python_|_C-6366F1?style=flat-square&labelColor=1a1a2e" alt="Languages"/>
-<img src="https://img.shields.io/badge/🎨_Frontend-React_|_Next.js_|_Tailwind-8B5CF6?style=flat-square&labelColor=1a1a2e" alt="Frontend"/>
-<img src="https://img.shields.io/badge/⚙️_Backend-Node.js_|_Spring_|_REST-6366F1?style=flat-square&labelColor=1a1a2e" alt="Backend"/>
-<img src="https://img.shields.io/badge/🗄️_Database-MongoDB_|_MySQL_|_PostgreSQL-8B5CF6?style=flat-square&labelColor=1a1a2e" alt="Database"/>
-<img src="https://img.shields.io/badge/🤖_AI/ML-OpenAI_|_TensorFlow_|_PyTorch-6366F1?style=flat-square&labelColor=1a1a2e" alt="AI/ML"/>
-<img src="https://img.shields.io/badge/☁️_DevOps-Docker_|_Linux_|_Vercel-8B5CF6?style=flat-square&labelColor=1a1a2e" alt="DevOps"/>
+<img src="https://img.shields.io/badge/💻_Languages-Java_|_TypeScript_|_Python-E63946?style=flat-square&labelColor=000000" alt="Languages"/>
+<img src="https://img.shields.io/badge/🎨_Frontend-React_|_Next.js_|_Tailwind-FFD60A?style=flat-square&labelColor=000000" alt="Frontend"/>
+<img src="https://img.shields.io/badge/🤖_AI-OpenAI_|_Gemini_|_TensorFlow-0077B6?style=flat-square&labelColor=000000" alt="AI"/>
+<img src="https://img.shields.io/badge/☁️_Cloud-Firebase_|_Vercel_|_Docker-E63946?style=flat-square&labelColor=000000" alt="Cloud"/>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
 
-<!-- ═══════════════════ GITHUB ANALYTICS ═══════════════════ -->
+<!-- ═══════════════════ MISSION BRIEFINGS — PROJECTS ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=A855F7&height=50&section=header&text=%F0%9F%93%8A%20GitHub%20Analytics&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0077B6&height=55&section=header&text=🎯%20MISSION%20BRIEFINGS%20—%20TOP%20OPERATIONS&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
 
 <br/>
 
 <div align="center">
 
-<!-- Stats Cards -->
-<img src="https://github-readme-stats.vercel.app/api?username=prabalmittal04&show_icons=true&theme=radical&hide_border=false&border_radius=15&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prabalmittal04&theme=radical&hide_border=false&border_radius=15&background=0D1117&ring=6366F1&fire=8B5CF6&currStreakLabel=6366F1&sideLabels=6366F1&sideNums=ffffff&dates=8B5CF6" alt="GitHub Streak" height="180"/>
+<sub>📋 <b>Priority order — most critical missions first!</b></sub>
 
 </div>
 
+<br/>
+
+<!-- MISSION #1 — HealingHues -->
+<table>
+  <tr>
+    <td width="80" align="center"><img src="https://img.shields.io/badge/01-E63946?style=for-the-badge&labelColor=000000" alt="#1"/></td>
+    <td>
+      <h3>🌈 HealingHues — Mental Wellness Hero</h3>
+      <blockquote><b>💬 "Healing minds, one hue at a time!"</b></blockquote>
+      <p>AI-powered mental wellness companion using <b>Gemini LLM</b>, <b>Firebase</b>, and <b>RAG</b> for mindful, safe healing journeys. Live on Android with cloud-backed intelligence.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native"/>
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase"/>
+        <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini"/>
+        <img src="https://img.shields.io/badge/AI/RAG-0077B6?style=flat-square" alt="RAG"/>
+      </p>
+      <a href="https://prabalmittal.vercel.app/"><img src="https://img.shields.io/badge/🚀_VIEW_MISSION-Portfolio-E63946?style=for-the-badge&labelColor=000000" alt="View HealingHues"/></a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- MISSION #2 — ProvidentAI -->
+<table>
+  <tr>
+    <td width="80" align="center"><img src="https://img.shields.io/badge/02-FFD60A?style=for-the-badge&labelColor=000000" alt="#2"/></td>
+    <td>
+      <h3>🏥 ProvidentAI — Healthcare Guardian</h3>
+      <blockquote><b>💬 "Trust verified. Compliance unlocked!"</b></blockquote>
+      <p>Autonomous <b>AI agents</b> for healthcare provider validation, credentialing & compliance. Enterprise-grade trust platform with ML anomaly detection and interactive dashboards.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/ML-Agents-E63946?style=flat-square" alt="AI Agents"/>
+      </p>
+      <a href="https://prabalmittal.vercel.app/"><img src="https://img.shields.io/badge/🚀_VIEW_MISSION-Portfolio-FFD60A?style=for-the-badge&labelColor=000000" alt="View ProvidentAI"/></a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- MISSION #3 — Sahayata -->
+<table>
+  <tr>
+    <td width="80" align="center"><img src="https://img.shields.io/badge/03-0077B6?style=for-the-badge&labelColor=000000" alt="#3"/></td>
+    <td>
+      <h3>🆘 Sahayata — Disaster Relief Command</h3>
+      <blockquote><b>💬 "When disaster strikes, Sahayata answers!"</b></blockquote>
+      <p>AI-driven <b>disaster relief logistics</b> command dashboard. Real-time coordination, resource tracking & relief ops powered by <b>Neon PostgreSQL</b>, Express & React.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
+        <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square" alt="Neon"/>
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
+      </p>
+      <a href="https://prabalmittal.vercel.app/"><img src="https://img.shields.io/badge/🚀_VIEW_MISSION-Portfolio-0077B6?style=for-the-badge&labelColor=000000" alt="View Sahayata"/></a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- MISSION #4 — DigitalAddress -->
+<table>
+  <tr>
+    <td width="80" align="center"><img src="https://img.shields.io/badge/04-E63946?style=for-the-badge&labelColor=000000" alt="#4"/></td>
+    <td>
+      <h3>📍 DigitalAddress — Location Navigator</h3>
+      <blockquote><b>💬 "Every place deserves a digital identity!"</b></blockquote>
+      <p>Modern <b>TypeScript</b> digital addressing platform for seamless location management, smart navigation & address validation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+      </p>
+      <a href="https://github.com/prabalmittal04/DigitalAddress"><img src="https://img.shields.io/badge/🐙_GITHUB-View_Repo-E63946?style=for-the-badge&labelColor=000000" alt="DigitalAddress GitHub"/></a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- MISSION #5 — Novaffit -->
+<table>
+  <tr>
+    <td width="80" align="center"><img src="https://img.shields.io/badge/05-FFD60A?style=for-the-badge&labelColor=000000" alt="#5"/></td>
+    <td>
+      <h3>💪 Novaffit — Fitness & Wellness Sidekick</h3>
+      <blockquote><b>💬 "Train smart. Live bold. Nova level unlocked!"</b></blockquote>
+      <p>Next-gen <b>fitness & wellness</b> platform blending smart tracking, personalized routines & AI-driven health insights for everyday heroes.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Mobile-App-0077B6?style=flat-square" alt="Mobile"/>
+        <img src="https://img.shields.io/badge/AI-Insights-E63946?style=flat-square" alt="AI"/>
+        <img src="https://img.shields.io/badge/Wellness-FFD60A?style=flat-square&labelColor=000000" alt="Wellness"/>
+      </p>
+      <a href="https://prabalmittal.vercel.app/"><img src="https://img.shields.io/badge/🚀_VIEW_MISSION-Portfolio-FFD60A?style=for-the-badge&labelColor=000000" alt="View Novaffit"/></a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabalmittal04&layout=compact&theme=radical&hide_border=false&border_radius=15&bg_color=0D1117&title_color=6366F1&text_color=c9d1d9&langs_count=8&card_width=420" alt="Top Languages" height="180"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prabalmittal04&theme=radical" alt="Profile Details" height="180"/>
-
-</div>
-
-<div align="center">
-
-<!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=prabalmittal04&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub Trophies"/>
-
-</div>
-
-<div align="center">
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prabalmittal04&theme=react-dark&hide_border=false&border_radius=15&bg_color=0D1117&color=6366F1&line=8B5CF6&point=FFFFFF&area=true&area_color=6366F1&custom_title=Contribution%20Activity%20Graph" alt="Activity Graph"/>
+<a href="https://github.com/prabalmittal04/DigitalAddress">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabalmittal04&repo=DigitalAddress&theme=dracula&hide_border=false&border_radius=10&bg_color=000000&title_color=E63946&icon_color=FFD60A&description_lines=3" alt="DigitalAddress Pin"/>
+</a>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
 
-<!-- ═══════════════════ SNAKE CONTRIBUTION HEATMAP ═══════════════════ -->
+<!-- ═══════════════════ HERO STATS ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=6366F1&height=50&section=header&text=%F0%9F%90%8D%20Contribution%20Snake%20%7C%20Heatmap%20Animation&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=E63946&height=55&section=header&text=📊%20HERO%20STATS&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%"/>
 
 <br/>
 
 <div align="center">
 
-<!-- Animated GIF — loops automatically once workflow runs -->
-<img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.gif" alt="Snake eating contributions — animated GIF" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=prabalmittal04&show_icons=true&theme=dracula&hide_border=false&border_radius=10&bg_color=000000&title_color=E63946&icon_color=FFD60A&text_color=ffffff&count_private=true" alt="GitHub Stats" height="170"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=prabalmittal04&theme=dracula&hide_border=false&border_radius=10&background=000000&ring=E63946&fire=FFD60A&currStreakLabel=0077B6&sideLabels=E63946&sideNums=ffffff" alt="GitHub Streak" height="170"/>
 
 <br/>
 
-<!-- SVG snake with dark/light mode support -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabalmittal04&layout=compact&theme=dracula&hide_border=false&border_radius=10&bg_color=000000&title_color=E63946&text_color=ffffff&langs_count=8" alt="Top Languages" height="170"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=prabalmittal04&theme=dracula&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prabalmittal04&theme=react-dark&hide_border=false&border_radius=10&bg_color=000000&color=E63946&line=FFD60A&point=0077B6&area=true&custom_title=⚡%20Hero%20Activity%20Radar" alt="Activity Graph"/>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
+
+<!-- ═══════════════════ SNAKE ATTACK ═══════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=FFD60A&height=55&section=header&text=🐍%20SNAKE%20ATTACK%20—%20HEATMAP&fontSize=22&fontColor=000000&animation=twinkling" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.gif" alt="Snake eating contributions — comic edition" width="100%"/>
+
+<br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
@@ -166,51 +274,7 @@ const prabal = {
 
 <br/>
 
-<sub>🐍 <b>Snake eats my GitHub contributions!</b> · Auto-updates daily via GitHub Actions · Enable workflow in <code>.github/workflows/snake.yml</code></sub>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
-
-<!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=8B5CF6&height=50&section=header&text=%F0%9F%9A%80%20Featured%20Projects&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
-
-<br/>
-
-<div align="center">
-
-<!-- Pin Cards -->
-<a href="https://github.com/prabalmittal04/DigitalAddress">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabalmittal04&repo=DigitalAddress&theme=radical&hide_border=false&border_radius=15&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&description_lines=3" alt="DigitalAddress"/>
-</a>
-<a href="https://github.com/prabalmittal04/BookMyStayApp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabalmittal04&repo=BookMyStayApp&theme=radical&hide_border=false&border_radius=15&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&description_lines=3" alt="BookMyStayApp"/>
-</a>
-
-<br/>
-
-<a href="https://github.com/prabalmittal04/HelloApp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabalmittal04&repo=HelloApp&theme=radical&hide_border=false&border_radius=15&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&description_lines=3" alt="HelloApp"/>
-</a>
-<a href="https://github.com/prabalmittal04/os_project">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabalmittal04&repo=os_project&theme=radical&hide_border=false&border_radius=15&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&description_lines=3" alt="OS Project"/>
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-| Project | Description | Stack |
-|:-------:|:------------|:------|
-| 📍 [**DigitalAddress**](https://github.com/prabalmittal04/DigitalAddress) | Modern digital addressing & location management | `TypeScript` `React` |
-| 🏨 [**BookMyStayApp**](https://github.com/prabalmittal04/BookMyStayApp) | Hotel booking with room & reservation management | `Java` `Spring` |
-| 👋 [**HelloApp**](https://github.com/prabalmittal04/HelloApp) | Git & GitFlow learning project | `Java` `Git` |
-| 🖥️ [**OS Project**](https://github.com/prabalmittal04/os_project) | OS concepts — processes & memory management | `C` `Linux` |
-| 🌿 [**Healingwellness**](https://github.com/prabalmittal04/Healingwellness) | Wellness & mindfulness tech solutions | `Web` |
-| 🌐 [**Portfolio**](https://prabalmittal.vercel.app/) | AI Engineer showcase site | `Next.js` `Vercel` |
+<sub>🐍 <b>SNAAAAKE!</b> · Devouring contributions daily · Auto-updated via GitHub Actions</sub>
 
 </div>
 
@@ -218,57 +282,57 @@ const prabal = {
 
 <!-- ═══════════════════ ACHIEVEMENTS ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=A855F7&height=50&section=header&text=%F0%9F%8F%86%20GitHub%20Achievements&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0077B6&height=55&section=header&text=🏆%20HERO%20ACHIEVEMENTS&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%"/>
 
 <br/>
 
 <div align="center">
 
 <p>
-  <img src="https://img.shields.io/badge/🦈_Pull_Shark-×2-6366F1?style=for-the-badge&labelColor=1a1a2e" alt="Pull Shark"/>
-  <img src="https://img.shields.io/badge/🎯_YOLO-Achievement-8B5CF6?style=for-the-badge&labelColor=1a1a2e" alt="YOLO"/>
-  <img src="https://img.shields.io/badge/🚀_Builder-7_Repos-6366F1?style=for-the-badge&labelColor=1a1a2e" alt="Builder"/>
-  <img src="https://img.shields.io/badge/💜_Open_Source-Contributor-A855F7?style=for-the-badge&labelColor=1a1a2e" alt="Open Source"/>
+  <img src="https://img.shields.io/badge/🦈_PULL_SHARK-×2-E63946?style=for-the-badge&labelColor=000000" alt="Pull Shark"/>
+  <img src="https://img.shields.io/badge/🎯_YOLO-Badge_Unlocked-FFD60A?style=for-the-badge&labelColor=000000" alt="YOLO"/>
+  <img src="https://img.shields.io/badge/🚀_BUILDER-5_Missions-0077B6?style=for-the-badge&labelColor=000000" alt="Builder"/>
+  <img src="https://img.shields.io/badge/💥_COMIC_HERO-You_Are_Here-E63946?style=for-the-badge&labelColor=000000" alt="Comic Hero"/>
 </p>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
 
-<!-- ═══════════════════ DEV QUOTE ═══════════════════ -->
+<!-- ═══════════════════ WORD BALLOON ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=6366F1&height=50&section=header&text=%F0%9F%92%AC%20Daily%20Dev%20Quote&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=E63946&height=55&section=header&text=💬%20WORD%20BALLOON&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%"/>
 
 <br/>
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quoteCategory=programming" alt="Random Dev Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quoteCategory=programming" alt="Dev Quote"/>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6eda9255.svg" width="100%"/>
 
-<!-- ═══════════════════ CONNECT ═══════════════════ -->
+<!-- ═══════════════════ SIGNAL BOOST ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=8B5CF6&height=50&section=header&text=%F0%9F%91%8B%20Let's%20Connect&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=FFD60A&height=55&section=header&text=📡%20SIGNAL%20BOOST%20—%20LET%27S%20TEAM%20UP!&fontSize=20&fontColor=000000&animation=twinkling" width="100%"/>
 
 <br/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=800&color=8B5CF6&center=true&vCenter=true&width=500&lines=Let's+build+something+amazing+together!;Always+open+to+collaborations+%F0%9F%92%9C;Drop+a+star+%E2%AD%90+if+you+like+my+work!" alt="Connect typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&duration=3500&pause=700&color=E63946&center=true&vCenter=true&width=520&lines=Need+a+coding+sidekick%3F+I'm+in!;Got+a+mission%3F+Let's+build+it!;Drop+a+⭐+if+you+enjoyed+the+show!" alt="Connect typing"/>
 
 <br/><br/>
 
 <a href="https://prabalmittal.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1a1a2e" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-E63946?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=000000" alt="Portfolio"/>
 </a>
 <a href="https://www.linkedin.com/in/prabal-mittal-722727313" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"/>
 </a>
 <a href="https://github.com/prabalmittal04" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-FFD60A?style=for-the-badge&logo=github&logoColor=black&labelColor=000000" alt="GitHub"/>
 </a>
 
 </div>
@@ -279,16 +343,16 @@ const prabal = {
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:A855F7&height=130&section=footer&text=Thanks%20for%20Visiting!%20%F0%9F%92%BB&fontSize=28&fontColor=ffffff&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E63946,40:FFD60A,80:0077B6,100:000000&height=140&section=footer&text=TO%20BE%20CONTINUED...%20💥&fontSize=30&fontColor=ffffff&animation=twinkling"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=450&lines=Happy+Coding!+%F0%9F%9A%80;Keep+Building+%F0%9F%94%A5;Made+with+%E2%9D%A4%EF%B8%8F+by+Prabal+Mittal" alt="Footer typing"/>
-
-<br/>
-
-**⭐️ From [prabalmittal04](https://github.com/prabalmittal04) with ❤️**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=14&duration=2800&pause=900&color=FFD60A&center=true&vCenter=true&width=480&lines=POW!+Happy+Coding!;WHAM!+Keep+Building!;💥+Made+by+Prabal+Mittal" alt="Footer typing"/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/Built%20with-Markdown%20%2B%20Magic-6366F1?style=flat-square&labelColor=1a1a2e" alt="Built with"/>
+**⭐️ From [prabalmittal04](https://github.com/prabalmittal04) — Comic Edition · Issue #1**
+
+<br/>
+
+<img src="https://img.shields.io/badge/⚡_Powered_By-Markdown_+_Pure_Hero_Energy-E63946?style=flat-square&labelColor=000000" alt="Powered By"/>
 
 </div>
