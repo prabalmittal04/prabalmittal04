@@ -145,34 +145,26 @@ const prabal = {
 
 <div align="center">
 
-<sub><b>2025 – 2026 combined</b> · excludes 2024 contributions</sub>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution snake 2025-2026" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
-</picture>
+<sub><b>Side-by-side yearly snakes</b> · 2025 & 2026 only (no 2024)</sub>
 
 <br/><br/>
 
 <table align="center">
   <tr>
-    <td align="center"><b>2025</b></td>
-    <td align="center"><b>2026</b></td>
+    <td align="center" width="50%"><b>2025</b></td>
+    <td align="center" width="50%"><b>2026</b></td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2025-dark.svg">
-        <img alt="Snake 2025" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2025.svg">
+        <img alt="Contribution snake 2025" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2025.svg">
       </picture>
     </td>
-    <td align="center">
+    <td align="center" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026-dark.svg">
-        <img alt="Snake 2026" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026.svg">
+        <img alt="Contribution snake 2026" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026.svg">
       </picture>
     </td>
   </tr>

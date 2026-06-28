@@ -25,7 +25,7 @@ jobs:
           node-version: 20
 
       - name: Install snake generator
-        run: npm install generate-snake-animation@3.5.0
+        run: npm install
 
       - name: Generate 2025 & 2026 contribution snakes
         run: node scripts/generate-snake.mjs

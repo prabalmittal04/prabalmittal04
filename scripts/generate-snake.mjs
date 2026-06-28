@@ -1,5 +1,4 @@
-import { mkdirSync, writeFileSync } from "node:fs";
-import { dirname } from "node:path";
+import { mkdirSync, writeFileSync, copyFileSync } from "node:fs";
 
 const USER = process.env.GITHUB_USER || "prabalmittal04";
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -10,13 +9,6 @@ if (!TOKEN) {
 
 const RANGES = [
   {
-    label: "2025–2026",
-    from: "2025-01-01T00:00:00Z",
-    to: "2026-12-31T23:59:59Z",
-    light: "dist/github-contribution-grid-snake.svg",
-    dark: "dist/github-contribution-grid-snake-dark.svg",
-  },
-  {
     label: "2025",
     from: "2025-01-01T00:00:00Z",
     to: "2025-12-31T23:59:59Z",
@@ -26,7 +18,7 @@ const RANGES = [
   {
     label: "2026",
     from: "2026-01-01T00:00:00Z",
-    to: "2026-12-31T23:59:59Z",
+    to: new Date().toISOString(),
     light: "dist/snake-2026.svg",
     dark: "dist/snake-2026-dark.svg",
   },
@@ -38,32 +30,30 @@ function patchFetch(from, to) {
   globalThis.fetch = async (url, options) => {
     if (String(url).includes("api.github.com/graphql")) {
       const body = JSON.parse(options.body);
-      const patched = {
-        query: `
-          query ($login: String!, $from: DateTime!, $to: DateTime!) {
-            user(login: $login) {
-              contributionsCollection(from: $from, to: $to) {
-                contributionCalendar {
-                  weeks {
-                    contributionDays {
-                      contributionCount
-                      contributionLevel
-                      weekday
-                      date
+      return originalFetch(url, {
+        ...options,
+        body: JSON.stringify({
+          query: `
+            query ($login: String!, $from: DateTime!, $to: DateTime!) {
+              user(login: $login) {
+                contributionsCollection(from: $from, to: $to) {
+                  contributionCalendar {
+                    weeks {
+                      contributionDays {
+                        contributionCount
+                        contributionLevel
+                        weekday
+                        date
+                      }
                     }
                   }
                 }
               }
             }
-          }
-        `,
-        variables: {
-          login: body.variables.login,
-          from,
-          to,
-        },
-      };
-      return originalFetch(url, { ...options, body: JSON.stringify(patched) });
+          `,
+          variables: { login: body.variables.login, from, to },
+        }),
+      });
     }
     return originalFetch(url, options);
   };
@@ -93,10 +83,12 @@ const darkDraw = {
 
 const anim = { frameByStep: 1, stepDurationMs: 100 };
 
+mkdirSync("dist", { recursive: true });
+
 const { generateSnakeAnimation } = await import("generate-snake-animation");
 
 for (const range of RANGES) {
-  console.log(`Generating snake for ${range.label} (${range.from} → ${range.to})`);
+  console.log(`Generating snake for ${range.label}`);
   patchFetch(range.from, range.to);
 
   const results = await generateSnakeAnimation(
@@ -107,10 +99,14 @@ for (const range of RANGES) {
     ],
   );
 
-  mkdirSync("dist", { recursive: true });
   writeFileSync(range.light, results[0]);
   writeFileSync(range.dark, results[1]);
-  console.log(`Saved ${range.light} and ${range.dark}`);
+  console.log(`Saved ${range.light}`);
 }
 
+// Legacy filenames → latest year (2026)
+copyFileSync("dist/snake-2026.svg", "dist/github-contribution-grid-snake.svg");
+copyFileSync("dist/snake-2026-dark.svg", "dist/github-contribution-grid-snake-dark.svg");
+
 globalThis.fetch = originalFetch;
+console.log("Done — 2025 & 2026 snakes generated (no 2024 data).");
