@@ -136,18 +136,34 @@ const prabal = {
 
 ---
 
+### 🐍 Contribution Snake · 2026
+
+<div align="center">
+
+<sub>Your 2026 GitHub contributions · snake eats each active day</sub>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026-dark.gif">
+  <img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026.gif" width="720" alt="2026 contribution snake animation"/>
+</picture>
+
+</div>
+
+---
+
 ### 📈 GitHub Activity
 
 <div align="center">
 
-<!-- Snake needs daily commits across the year; 3 active days in 365 = empty grid -->
 <img src="https://img.shields.io/badge/Contributions_(2026)-55-39d353?style=for-the-badge&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Current_Streak-2_days-58A6FF?style=for-the-badge&logo=fire&logoColor=white"/>
 <img src="https://img.shields.io/badge/Best_Day-Feb_28_%7C_40_commits-7B61FF?style=for-the-badge"/>
 
 <br/><br/>
 
-<sub>GitHub only counts commits pushed here · push regularly to grow your graph</sub>
+<sub>Push commits regularly to fill the graph · auto-updates daily</sub>
 
 </div>
 

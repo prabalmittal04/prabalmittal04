@@ -27,7 +27,7 @@ jobs:
       - name: Install snake generator
         run: npm install
 
-      - name: Generate rolling-year contribution snake
+      - name: Generate 2026 contribution snake
         run: node scripts/generate-snake.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
