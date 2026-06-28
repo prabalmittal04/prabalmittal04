@@ -85,7 +85,42 @@ const { generateSnakeAnimation } = await import("generate-snake-animation");
 
 console.log(`Generating profile-matched snake: ${FROM.slice(0, 10)} → ${TO.slice(0, 10)}`);
 console.log(`Auth: ${process.env.CONTRIB_PAT ? "CONTRIB_PAT (includes private)" : "GITHUB_TOKEN (public only)"}`);
+
 patchFetch(FROM, TO);
+
+// Log how many days the snake will have (visible in Actions logs).
+const probe = await originalFetch("https://api.github.com/graphql", {
+  method: "POST",
+  headers: {
+    Authorization: `Bearer ${TOKEN}`,
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    query: `
+      query ($login: String!, $from: DateTime!, $to: DateTime!) {
+        user(login: $login) {
+          contributionsCollection(from: $from, to: $to) {
+            contributionCalendar {
+              weeks { contributionDays { contributionCount date } }
+            }
+          }
+        }
+      }
+    `,
+    variables: { login: USER, from: FROM, to: TO },
+  }),
+});
+const probeJson = await probe.json();
+const days = probeJson.data?.user?.contributionsCollection?.contributionCalendar?.weeks
+  ?.flatMap((w) => w.contributionDays)
+  ?.filter((d) => d.contributionCount > 0) ?? [];
+console.log(`Active contribution days for snake: ${days.length}`);
+if (days.length < 10 && !process.env.CONTRIB_PAT) {
+  console.warn(
+    "WARN: Few public days detected. Profile may show more greens from PRIVATE repos. " +
+      "Add repo secret CONTRIB_PAT (classic PAT, scope: read:user) then re-run workflow.",
+  );
+}
 
 const results = await generateSnakeAnimation(
   { platform: "github", username: USER, githubToken: TOKEN },

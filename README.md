@@ -140,7 +140,7 @@ const prabal = {
 
 <div align="center">
 
-<sub>Matches your GitHub profile graph · rolling last 12 months · snake eats every green square</sub>
+<sub>Rolling last 12 months · snake eats every contribution square on your graph</sub>
 
 <br/><br/>
 
