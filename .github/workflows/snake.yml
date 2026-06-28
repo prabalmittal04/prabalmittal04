@@ -1,4 +1,4 @@
-# Generates contribution snake for 2025–2026 only (excludes 2024).
+# Generates contribution snake from rolling 12-month profile graph data.
 
 name: Generate Contribution Snake
 
@@ -27,11 +27,12 @@ jobs:
       - name: Install snake generator
         run: npm install
 
-      - name: Generate 2026 contribution snake
+      - name: Generate profile-matched contribution snake
         run: node scripts/generate-snake.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: prabalmittal04
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONTRIB_PAT: ${{ secrets.CONTRIB_PAT }}
 
       - name: Deploy snake to output branch
         uses: crazy-max/ghaction-github-pages@v4

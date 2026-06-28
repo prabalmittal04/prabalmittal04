@@ -136,17 +136,17 @@ const prabal = {
 
 ---
 
-### 🐍 Contribution Snake · 2026
+### 🐍 Contribution Snake
 
 <div align="center">
 
-<sub>Your 2026 GitHub contributions · snake eats each active day</sub>
+<sub>Matches your GitHub profile graph · rolling last 12 months · snake eats every green square</sub>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026-dark.gif">
-  <img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026.gif" width="720" alt="2026 contribution snake animation"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-dark.gif">
+  <img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake.gif" width="830" alt="Contribution snake — same data as your GitHub profile graph"/>
 </picture>
 
 </div>

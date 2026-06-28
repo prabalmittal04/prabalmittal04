@@ -1,24 +1,32 @@
 import { mkdirSync, writeFileSync, copyFileSync } from "node:fs";
 
 const USER = process.env.GITHUB_USER || "prabalmittal04";
-const TOKEN = process.env.GITHUB_TOKEN;
+const TOKEN = process.env.CONTRIB_PAT || process.env.GITHUB_TOKEN;
 
 if (!TOKEN) {
-  throw new Error("GITHUB_TOKEN is required");
+  throw new Error("GITHUB_TOKEN or CONTRIB_PAT is required");
 }
 
-// Calendar year 2026 only — matches GitHub year picker view.
-const FROM = "2026-01-01T00:00:00Z";
-const TO = new Date().toISOString();
+// Same window as GitHub profile: "contributions in the last year" (Jul → Jun layout).
+const now = new Date();
+const fromDate = new Date(now);
+fromDate.setUTCDate(fromDate.getUTCDate() - 364);
+fromDate.setUTCHours(0, 0, 0, 0);
+
+const FROM = fromDate.toISOString();
+const TO = now.toISOString();
 
 const originalFetch = globalThis.fetch;
 
 function patchFetch(from, to) {
   globalThis.fetch = async (url, options) => {
     if (String(url).includes("api.github.com/graphql")) {
-      const body = JSON.parse(options.body);
       return originalFetch(url, {
         ...options,
+        headers: {
+          ...options.headers,
+          Authorization: `Bearer ${TOKEN}`,
+        },
         body: JSON.stringify({
           query: `
             query ($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -38,7 +46,7 @@ function patchFetch(from, to) {
               }
             }
           `,
-          variables: { login: body.variables.login, from, to },
+          variables: { login: USER, from, to },
         }),
       });
     }
@@ -46,10 +54,11 @@ function patchFetch(from, to) {
   };
 }
 
+// GitHub default light palette — matches profile contribution graph colors.
 const lightDraw = {
   sizeDotBorderRadius: 2,
-  sizeCell: 16,
-  sizeDot: 12,
+  sizeCell: 14,
+  sizeDot: 10,
   colorBackground: "#ffffff",
   colorDotBorder: "#1b1f230a",
   colorEmpty: "#ebedf0",
@@ -59,8 +68,8 @@ const lightDraw = {
 
 const darkDraw = {
   sizeDotBorderRadius: 2,
-  sizeCell: 16,
-  sizeDot: 12,
+  sizeCell: 14,
+  sizeDot: 10,
   colorBackground: "#0d1117",
   colorDotBorder: "#1b1f230a",
   colorEmpty: "#161b22",
@@ -68,55 +77,65 @@ const darkDraw = {
   colorSnake: "#8B5CF6",
 };
 
-const anim = { frameByStep: 1, stepDurationMs: 100 };
+const anim = { frameByStep: 1, stepDurationMs: 90 };
 
 mkdirSync("dist", { recursive: true });
 
 const { generateSnakeAnimation } = await import("generate-snake-animation");
 
-console.log(`Generating 2026 snake from ${FROM.slice(0, 10)} to ${TO.slice(0, 10)}`);
+console.log(`Generating profile-matched snake: ${FROM.slice(0, 10)} → ${TO.slice(0, 10)}`);
+console.log(`Auth: ${process.env.CONTRIB_PAT ? "CONTRIB_PAT (includes private)" : "GITHUB_TOKEN (public only)"}`);
 patchFetch(FROM, TO);
 
 const results = await generateSnakeAnimation(
   { platform: "github", username: USER, githubToken: TOKEN },
   [
     {
-      filename: "dist/snake-2026.svg",
-      format: "svg",
+      filename: "dist/snake.gif",
+      format: "gif",
       drawOptions: lightDraw,
       animationOptions: anim,
     },
     {
-      filename: "dist/snake-2026-dark.svg",
-      format: "svg",
+      filename: "dist/snake-dark.gif",
+      format: "gif",
       drawOptions: darkDraw,
       animationOptions: anim,
     },
     {
-      filename: "dist/snake-2026.gif",
-      format: "gif",
+      filename: "dist/snake.svg",
+      format: "svg",
       drawOptions: lightDraw,
       animationOptions: anim,
     },
     {
-      filename: "dist/snake-2026-dark.gif",
-      format: "gif",
+      filename: "dist/snake-dark.svg",
+      format: "svg",
       drawOptions: darkDraw,
       animationOptions: anim,
     },
   ],
 );
 
-writeFileSync("dist/snake-2026.svg", results[0]);
-writeFileSync("dist/snake-2026-dark.svg", results[1]);
-writeFileSync("dist/snake-2026.gif", Buffer.from(results[2]));
-writeFileSync("dist/snake-2026-dark.gif", Buffer.from(results[3]));
+writeFileSync("dist/snake.gif", Buffer.from(results[0]));
+writeFileSync("dist/snake-dark.gif", Buffer.from(results[1]));
+writeFileSync("dist/snake.svg", results[2]);
+writeFileSync("dist/snake-dark.svg", results[3]);
 
-// Legacy filenames used by older README links
-copyFileSync("dist/snake-2026.gif", "dist/github-contribution-grid-snake.gif");
-copyFileSync("dist/snake-2026-dark.gif", "dist/github-contribution-grid-snake-dark.gif");
-copyFileSync("dist/snake-2026.svg", "dist/github-contribution-grid-snake.svg");
-copyFileSync("dist/snake-2026-dark.svg", "dist/github-contribution-grid-snake-dark.svg");
+// README + legacy paths
+const legacy = [
+  ["dist/snake.gif", "dist/snake-2026.gif"],
+  ["dist/snake-dark.gif", "dist/snake-2026-dark.gif"],
+  ["dist/snake.svg", "dist/snake-2026.svg"],
+  ["dist/snake-dark.svg", "dist/snake-2026-dark.svg"],
+  ["dist/snake.gif", "dist/github-contribution-grid-snake.gif"],
+  ["dist/snake-dark.gif", "dist/github-contribution-grid-snake-dark.gif"],
+  ["dist/snake.svg", "dist/github-contribution-grid-snake.svg"],
+  ["dist/snake-dark.svg", "dist/github-contribution-grid-snake-dark.svg"],
+];
+for (const [src, dest] of legacy) {
+  copyFileSync(src, dest);
+}
 
 globalThis.fetch = originalFetch;
-console.log("Done — 2026 contribution snake GIF generated.");
+console.log("Done — profile-matched rolling-year snake generated.");
