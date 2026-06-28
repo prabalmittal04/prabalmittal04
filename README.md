@@ -136,16 +136,18 @@ const prabal = {
 
 ---
 
-### 🐍 Contribution Snake
+### 📈 GitHub Activity
 
 <div align="center">
 
-<!-- GIF works on GitHub; animated SVG shows a broken green bar in README -->
-<img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.gif" width="720" alt="Contribution snake animation"/>
+<!-- Snake needs daily commits across the year; 3 active days in 365 = empty grid -->
+<img src="https://img.shields.io/badge/Contributions_(2026)-55-39d353?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Current_Streak-2_days-58A6FF?style=for-the-badge&logo=fire&logoColor=white"/>
+<img src="https://img.shields.io/badge/Best_Day-Feb_28_%7C_40_commits-7B61FF?style=for-the-badge"/>
 
-<br/>
+<br/><br/>
 
-<sub>Rolling 365-day graph · auto-updates daily</sub>
+<sub>GitHub only counts commits pushed here · push regularly to grow your graph</sub>
 
 </div>
 
