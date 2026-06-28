@@ -72,10 +72,24 @@ const prabal = {
 
 <br/>
 
+<!-- Custom project cards — no GitHub API, always shows descriptions -->
 <div align="center">
 
+<a href="https://prabalmittal.vercel.app/">
+  <img src="https://img.shields.io/badge/🌈_HealingHues-AI_Mental_Wellness_App-4158D0?style=for-the-badge"/>
+</a>
+<a href="https://prabalmittal.vercel.app/">
+  <img src="https://img.shields.io/badge/🏥_ProvidentAI-Healthcare_AI_Platform-7B61FF?style=for-the-badge"/>
+</a>
+<a href="https://prabalmittal.vercel.app/">
+  <img src="https://img.shields.io/badge/🆘_Sahayata-Disaster_Relief_Dashboard-00C2FF?style=for-the-badge"/>
+</a>
+<br/><br/>
 <a href="https://github.com/prabalmittal04/DigitalAddress">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabalmittal04&repo=DigitalAddress&theme=vue&hide_border=false&border_radius=12&title_color=4158D0&icon_color=7B61FF" alt="DigitalAddress"/>
+  <img src="https://img.shields.io/badge/📍_DigitalAddress-Smart_Location_Platform-4158D0?style=for-the-badge&logo=github"/>
+</a>
+<a href="https://prabalmittal.vercel.app/">
+  <img src="https://img.shields.io/badge/💪_Novaffit-Fitness_%26_Wellness-7B61FF?style=for-the-badge"/>
 </a>
 
 </div>
@@ -86,7 +100,7 @@ const prabal = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,spring,mongodb,postgres,firebase,git,docker,linux,vscode,vercel,openai,tensorflow,android,figma&theme=light&perline=10" alt="Tech Stack"/>
+<img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,spring,mongodb,postgres,firebase,git,docker,linux,vscode,vercel,openai,tensorflow,android,figma&theme=dark&perline=10" alt="Tech Stack"/>
 
 <br/><br/>
 
@@ -111,7 +125,7 @@ const prabal = {
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prabalmittal04&theme=vue&hide_border=false&border_radius=12&color=4158D0&line=7B61FF&point=00C2FF&area=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prabalmittal04&theme=github-compact&hide_border=false&border_radius=12&color=4158D0&line=7B61FF&point=00C2FF&area=true&custom_title=Contribution%20Graph"/>
 
 </div>
 
