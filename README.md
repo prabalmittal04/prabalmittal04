@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header banner — waving type renders reliably on GitHub -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4158D0,50:7B61FF,100:00C2FF&height=190&section=header&text=Prabal%20Mittal&fontSize=42&fontColor=fff&fontAlignY=42&desc=AI%20Engineer%20%7C%20Full-Stack%20Builder&descSize=16&descAlignY=62&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a12,45:1a0a2e,75:2d1b69,100:0c1445&height=190&section=header&text=Prabal%20Mittal&fontSize=42&fontColor=fff&fontAlignY=42&desc=AI%20Engineer%20%7C%20Full-Stack%20Builder&descSize=16&descAlignY=62&animation=twinkling"/>
 
 <!-- Profile photo — direct GitHub CDN -->
 <img src="https://avatars.githubusercontent.com/u/191008386?s=200&v=4" width="120" alt="Prabal Mittal"/>
@@ -116,23 +116,18 @@ const prabal = {
 
 <div align="center">
 
-<!-- Row 1: Stats + Streak side by side -->
 <table align="center">
   <tr>
     <td align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=prabalmittal04&show_icons=true&theme=dark&hide_border=false&border_radius=10&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true" height="185" alt="GitHub Stats"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=prabalmittal04&show_icons=true&theme=dark&hide_border=false&border_radius=10&hide_rank=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true" height="185" alt="GitHub Stats"/>
     </td>
     <td align="center" valign="top">
       <img src="https://streak-stats.demolab.com/?user=prabalmittal04&theme=dark&hide_border=false&border_radius=10&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&sideNums=FFFFFF" height="185" alt="GitHub Streak"/>
     </td>
   </tr>
-  <!-- Row 2: Languages + Contribution chart side by side -->
   <tr>
-    <td align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabalmittal04&layout=compact&theme=dark&hide_border=false&border_radius=10&title_color=58A6FF&langs_count=6&card_width=320" height="185" alt="Top Languages"/>
-    </td>
-    <td align="center" valign="top">
-      <img src="https://ghchart.rshah.org/58A6FF/prabalmittal04" alt="Contribution Chart"/>
+    <td align="center" valign="top" colspan="2">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabalmittal04&layout=compact&theme=dark&hide_border=false&border_radius=10&title_color=58A6FF&langs_count=8&card_width=500" height="185" alt="Top Languages"/>
     </td>
   </tr>
 </table>
@@ -141,34 +136,15 @@ const prabal = {
 
 ---
 
-### 🐍 Contribution Snake · 2025 & 2026
+### 🐍 Contribution Activity · 2026
 
 <div align="center">
 
-<sub><b>Side-by-side yearly snakes</b> · 2025 & 2026 only (no 2024)</sub>
+<sub>Live contribution heatmap · updates automatically</sub>
 
 <br/><br/>
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%"><b>2025</b></td>
-    <td align="center" width="50%"><b>2026</b></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2025-dark.svg">
-        <img alt="Contribution snake 2025" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2025.svg">
-      </picture>
-    </td>
-    <td align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026-dark.svg">
-        <img alt="Contribution snake 2026" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026.svg">
-      </picture>
-    </td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake-dark.svg" width="720" alt="2026 GitHub contribution snake"/>
 
 </div>
 
