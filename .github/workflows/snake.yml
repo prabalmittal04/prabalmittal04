@@ -1,0 +1,40 @@
+# Generates the contribution snake animation on your GitHub heatmap.
+# Runs daily + on manual trigger. Pushes SVG/GIF to the `output` branch.
+
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation
+        uses: Platane/snake@v4
+        with:
+          github_user_name: prabalmittal04
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-grid-snake.gif
+          snake_color: "6366F1"
+          snake_color_dark: "6366F1"
+
+      - name: Deploy snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
