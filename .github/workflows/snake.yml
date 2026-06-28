@@ -1,5 +1,4 @@
-# Generates the contribution snake animation on your GitHub heatmap.
-# Runs daily + on manual trigger. Pushes SVG to the `output` branch.
+# Generates contribution snake for 2025–2026 only (excludes 2024).
 
 name: Generate Contribution Snake
 
@@ -20,15 +19,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: prabalmittal04
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          node-version: 20
+
+      - name: Install snake generator
+        run: npm install generate-snake-animation@3.5.0
+
+      - name: Generate 2025 & 2026 contribution snakes
+        run: node scripts/generate-snake.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: prabalmittal04
 
       - name: Deploy snake to output branch
         uses: crazy-max/ghaction-github-pages@v4

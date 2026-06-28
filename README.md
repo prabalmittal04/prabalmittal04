@@ -141,15 +141,42 @@ const prabal = {
 
 ---
 
-### 🐍 Contribution Snake
+### 🐍 Contribution Snake · 2025 & 2026
 
 <div align="center">
+
+<sub><b>2025 – 2026 combined</b> · excludes 2024 contributions</sub>
+
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution snake 2025-2026" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/github-contribution-grid-snake.svg">
 </picture>
+
+<br/><br/>
+
+<table align="center">
+  <tr>
+    <td align="center"><b>2025</b></td>
+    <td align="center"><b>2026</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2025-dark.svg">
+        <img alt="Snake 2025" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2025.svg">
+      </picture>
+    </td>
+    <td align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026-dark.svg">
+        <img alt="Snake 2026" src="https://raw.githubusercontent.com/prabalmittal04/prabalmittal04/output/snake-2026.svg">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 </div>
 
